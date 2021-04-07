@@ -161,4 +161,5 @@ Fourth level starts. We do all control again. We locate tiles in correct positio
 ![](/screenshots/8.png)
 
 Fifth level starts. We do all control again. We locate tiles in correct position. The ball reaches end tile. Number of movements are updated. Writing, which is game finished, appears on the bottom. We click next button, but it doesn&#39;t work because game is finished.
+
 ![](/screenshots/9.png)
