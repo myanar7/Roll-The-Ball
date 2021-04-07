@@ -31,11 +31,11 @@ Additionally, we add extra feature to the game. When a user run the program, a u
 | + type: String|
 | + property: String|
 | + image: ImageView|
-| ----- |    
+| --- |    
 | - Tile(id: int, type: String, property: String)|
 | - setCoordinate(position: int)|
 | - voidgetter/setter methods|
-| --- |
+|  |
 
 
 Tile class is a superclass of endTile, emptyTile, starterTile, pipeTile and pipeStaticTile classes. It has five data fields.
