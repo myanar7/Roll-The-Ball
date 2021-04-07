@@ -26,8 +26,9 @@ Additionally, we add extra feature to the game. When a user run the program, a u
 
 | Tile |
 | --- |
-| ----- | position: intid: inttype: Stringproperty: Stringimage: ImageView |
-| +++ position: intid: | Tile(id: int, type: String, property: String)setCoordinate(position: int): voidgetter/setter methods |
+| +position: int |
+| ----- | position: int id: int type: String property: Stringimage: ImageView |
+| +++  | Tile(id: int, type: String, property: String)setCoordinate(position: int): voidgetter/setter methods |
 
 Tile class is a superclass of endTile, emptyTile, starterTile, pipeTile and pipeStaticTile classes. It has five data fields.
 
