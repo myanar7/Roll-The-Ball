@@ -1,8 +1,4 @@
-# Roll-The-Ball
-JavaFX based Roll The Ball Project
-![](RackMultipart20210407-4-1mqtf7v_html_8a156dc140bb84cc.gif) ![](RackMultipart20210407-4-1mqtf7v_html_f9fcc004f9b7ceb.gif)
-
-# **Javafx project**
+# **JavaFX Project**
 
 # FIND THE PATH
 
