@@ -2,11 +2,9 @@
 
 # FIND THE PATH
 
-![](RackMultipart20210407-4-1mqtf7v_html_27fb3018d59cb1cc.gif)
 
-Bahadır Alacan 150118042 - Mustafa Yanar 150118048
+Bahadır Alacan - Mustafa Yanar
 
-CSE1142 Computer Programming II, Spring 2020
 
 Date Submitted: May 10, 2020
 
@@ -29,7 +27,7 @@ Additionally, we add extra feature to the game. When a user run the program, a u
 | Tile |
 | --- |
 | ----- | position: intid: inttype: Stringproperty: Stringimage: ImageView |
-| +++ | Tile(id: int, type: String, property: String)setCoordinate(position: int): voidgetter/setter methods |
+| +++ position: intid: | Tile(id: int, type: String, property: String)setCoordinate(position: int): voidgetter/setter methods |
 
 Tile class is a superclass of endTile, emptyTile, starterTile, pipeTile and pipeStaticTile classes. It has five data fields.
 
