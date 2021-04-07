@@ -31,11 +31,11 @@ Additionally, we add extra feature to the game. When a user run the program, a u
 | + type: String|
 | + property: String|
 | + image: ImageView|
-| --- |    
+||    
 | - Tile(id: int, type: String, property: String)|
 | - setCoordinate(position: int)|
 | - voidgetter/setter methods|
-|  |
+||
 
 
 Tile class is a superclass of endTile, emptyTile, starterTile, pipeTile and pipeStaticTile classes. It has five data fields.
@@ -46,7 +46,9 @@ The method **setCoordinate** sets image&#39;s coordinates by using their positio
 
 | StarterTile |
 | --- |
-| ++ | StarterTile(id: int, type: String, property: String)findImage(): void |
+| -StarterTile(id: int, type: String, property: String)|
+| -findImage(): void |
+||
 
 StarterTile is a subclass of Tile class.
 
@@ -54,19 +56,25 @@ The findImage method finds the image of tiles by using their property value.
 
 | EmptyTile |
 | --- |
-| ++ | EmptyTile(id: int, type: String, property: String)findImage(): void |
+| -EmptyTile(id: int, type: String, property: String) |
+| -findImage(): void |
+||
 
 EmptyTile is a subclass of Tile class.
 
 | PipeStaticTile |
 | --- |
-| ++ | PipeStaticTile(id: int, type: String, property: String)findImage(): void |
+| -PipeStaticTile(id: int, type: String, property: String) |
+| -findImage(): void |
+||
 
 PipeStaticTile is a subclass of Tile class.
 
 | EndTile |
 | --- |
-| ++ | EndTile(id: int, type: String, property: String)findImage(): void |
+| -EndTile(id: int, type: String, property: String) |
+| -findImage(): void |
+||
 
 EndTile is a subclass of Tile class.
 
@@ -78,11 +86,37 @@ PipeTile is a subclass of Tile class.
 
 | GameBoard |
 | --- |
-| ------------- | pathController: booleanwindow: Stageball: CirclefileName: Stringmovement: intpathTransition: PathTransitiontile: ArrayListplayButtonImage: ImageViewpane: PanenextButton: Buttonscene: ScenenextLevelText: TextmovementText: Text |
+| + pathController: boolean|
+| + window: Stageball: Circle|
+| + fileName: String|
+| + movement: int|
+| + pathTransition: PathTransition|
+| + tile: ArrayList|
+| + playButtonImage: ImageView|
+| + pane: Pane|
+| + nextButton: Button|
+| + scene: Scene|
+| + nextLevelText: Text|
+| + movementText: Text|
+||
 
 | GameBoard |
 | --- |
-| +++++++++++++++ | main Methodstart(primaryStage: Stage): voidsetMainMenu(): voidsetFile(fileName:String): voidsetNextButton(): voidsetCircle(): voidreadText(input: Scanner): voidsetObject(id: int, type: String, property:String): voidsetDrag(): voidmoveTile(index: int, e: MouseEvent): voidisLevelFinish(): booleanlevelPath(): voidcanMove(index: int): booleanfindTile(position: int): Tilegetter/setter methods |
+| - main Methodstart(primaryStage: Stage): void|
+| - setMainMenu(): void|
+| - setFile(fileName:String): void|
+| - setNextButton(): void|
+| - setCircle(): void|
+| - readText(input: Scanner): void|
+| - setObject(id: int, type: String, property:String): void|
+| - setDrag(): void|
+| - moveTile(index: int, e: MouseEvent): void|
+| - isLevelFinish(): boolean|
+| - levelPath(): void|
+| - canMove(index: int): boolean|
+| - findTile(position: int): Tile|
+| - getter/setter methods|
+| |
 
 This class creates game screen.
 
