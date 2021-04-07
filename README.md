@@ -126,38 +126,39 @@ The data field **pathController** controls the ball&#39;s complete path or not. 
 
 The **start** method creates a scene and calls setMainMenu method. **setMainMenu** method adds title of the game and play button to pane. **setFile** method reads text and creates game screen. This method adds movement text to pane. Also, it calls readText, setDrag, setCircle, setNextButton methods. **setNextButton** adds next button to pane and if player clicks next and current level finishes, new level is opened. **setCircle** method edits ball&#39;s properties. **readText** method reads text and add images to pane. Also, it assigns objects to arrayList. **setObject** method creates objects. **setDrag** method gives movement ability to tiles if conditions are provided. If the mouse&#39;s position enters another tile and conditions are provided **moveTile** method changes position of tiles. **isLevelFinish** method&#39;s purpose is to control whether the path is suitable or not. **levelPath** method sets the animation of ball when the game finish for every level. **canMove** method controls the tile you&#39;ve dragged have moveable. **findTile** method finds which kind of tile exists in this position.
 
-![](RackMultipart20210407-4-1mqtf7v_html_14ce252106b0ed1d.png) **Test Cases**
+ **Test Cases**
 
 We click play button and the game starts.
 
-![](RackMultipart20210407-4-1mqtf7v_html_8171aeb921b049b1.png)
+![](/screenshots/1.png)
 
 First level starts. We shift tenth tile to downward for complete the path. Also, we try to move tiles which can move, to tiles which are not free, but they cannot move because tiles can move only to free tiles.
 
-![](RackMultipart20210407-4-1mqtf7v_html_6ce142223c2c349e.png)
+![](/screenshots/2.png)
 
 The ball starts to move from starter tile. Number of movements are updated to 1. When the ball moves on the path, we try move other tiles, but tiles cannot move because path is not completed. Also, we click next button to pass the next level, but it doesn&#39;t work because the ball is not located in the end tile.
 
-![](RackMultipart20210407-4-1mqtf7v_html_e7ea7939b2847229.png)
+![](/screenshots/3.png)
 
 The ball reaches end tile. Writing, which is congratulations, you can skip next level, appears on the bottom of the pane. We click next button and the game pass next level.
 
-![](RackMultipart20210407-4-1mqtf7v_html_f2cfe9ecae84e8f3.png)
+![](/screenshots/4.png)
 
 Second level starts. We try to move tiles which cannot move, to free tiles and they cannot move.
 
-![](RackMultipart20210407-4-1mqtf7v_html_e4dcbfa70d7a5041.png)
+![](/screenshots/5.png)
 
 Then we locate tiles in correct position. The ball reaches end tile. Number of movements are updated. Writing, which is congratulations, you can skip next level, appears on the bottom. We click next.
 
-![](RackMultipart20210407-4-1mqtf7v_html_f768bb2524fa6e4b.png)
+![](/screenshots/6.png)
 
 Third level starts. We do all control again. We locate tiles in correct position. The ball reaches end tile. Number of movements are updated. Writing, which is congratulations, you can skip next level, appears on the bottom. We click next.
 
-![](RackMultipart20210407-4-1mqtf7v_html_a69481f11898dbe9.png)
+![](/screenshots/7.png)
 
 Fourth level starts. We do all control again. We locate tiles in correct position. The Ball reaches end tile. Number of movements are updated. Writing, which is congratulations, appears on the bottom. We click next.
 
-![](RackMultipart20210407-4-1mqtf7v_html_74ffac93b126db6c.png)
+![](/screenshots/8.png)
 
 Fifth level starts. We do all control again. We locate tiles in correct position. The ball reaches end tile. Number of movements are updated. Writing, which is game finished, appears on the bottom. We click next button, but it doesn&#39;t work because game is finished.
+![](/screenshots/9.png)
