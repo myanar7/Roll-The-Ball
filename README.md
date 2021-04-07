@@ -104,7 +104,7 @@ PipeTile is a subclass of Tile class.
 
 | GameBoard |
 | --- |
-| - main Methodstart(primaryStage: Stage): void|
+| - start(primaryStage: Stage): void|
 | - setMainMenu(): void|
 | - setFile(fileName:String): void|
 | - setNextButton(): void|
