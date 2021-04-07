@@ -80,7 +80,9 @@ EndTile is a subclass of Tile class.
 
 | PipeTile |
 | --- |
-| ++ | PipeTile(id: int, type: String, property: String)findImage(): void |
+| - PipeTile(id: int, type: String, property: String)|
+| - findImage(): void|
+||
 
 PipeTile is a subclass of Tile class.
 
